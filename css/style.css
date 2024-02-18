@@ -1,7 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
+
+
 
 ul {
     list-style: none;
@@ -19,11 +23,27 @@ a {
 button {
     width: 100px;
     height: auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.header, .intro, .footer {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-right a{
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .intro {
@@ -31,11 +51,22 @@ button {
     justify-content: center;
 }
 
+.intro p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .intro-left {
     display: flex;
     flex-direction: column;
     width: 20vw;
     justify-content: flex-start;
+}
+
+.intro-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .intro-right img {
@@ -47,6 +78,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#E5E7EB;
+    font-size: 18px;
+    margin-top: auto;
 }
 
 .random-info{
@@ -56,13 +90,16 @@ button {
 }
 
 .random-info h2 {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .cards img {
-    width: 20vh;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
 }
 
 .cards {
@@ -74,4 +111,48 @@ button {
 .card {
     display: flex;
     flex-direction: column;
+    width: 150px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-text p {
+    color: #E5E7EB;
+}
+
+.ad-text h2 {
+    color: #F9FAF8
+}
+
+.ad-button button{
+    border: 1px solid white;
+    border-radius: 5px;
 }

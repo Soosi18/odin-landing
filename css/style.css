@@ -112,13 +112,12 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .cards img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 2px solid #3882F6;
     border-radius: 25px;
 }
@@ -126,13 +125,17 @@ button {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 50px;
+    padding-bottom: 100px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
+    height: auto;
+    gap: 10px;
+    text-align: center;
 }
 
 .quote-box {
@@ -140,6 +143,10 @@ button {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+}
+
+.quote {
+    width: 1000px;
 }
 
 .quote p {

@@ -143,16 +143,33 @@ button {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    gap: 10px;
 }
 
-.quote {
+.quote, .author {
     width: 1000px;
+}
+
+.quote, .author p {
+    color: #1F2937;
 }
 
 .quote p {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+}
+
+.author {
+    align-self: center;
+    font-weight: bold;
+}
+
+.author p {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
 }
 
 .ad-container {

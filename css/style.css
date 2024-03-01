@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
 }
 
 ul {
@@ -63,7 +62,9 @@ button {
 .intro {
     display: flex;
     justify-content: center;
-    align-items: flex-start
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .intro p {
@@ -74,19 +75,21 @@ button {
 .intro-left {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 450px;
 }
 
 .intro-left h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .intro-right img {
-    width: 20vw;
-    height: auto;
+    width: 500px;
+    height: 250px;
 }
 
 .footer {

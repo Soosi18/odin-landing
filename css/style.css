@@ -184,12 +184,17 @@ button {
 .ad-box {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
 }
 
 .ad-text {
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .ad-text p {
